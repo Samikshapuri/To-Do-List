@@ -8,7 +8,7 @@ const _ = require("lodash");
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://admin-Samiksha:Test123@cluster0.k6zp5.mongodb.net/todolistDB", {useNewUrlParser:true});
+
 const itemsSchema = {
   name: String
 };
